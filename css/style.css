@@ -1,0 +1,150 @@
+.col-sm-2>span{
+    background: rgb(116, 221, 67);
+    width: 10%;
+    height: 25px;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    z-index: 2;
+}
+ /* ul.list{
+    display: none;
+ 
+}
+.nav-link> img.picture:hover + ul.list{
+    display: block;
+} */
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    width: 232px;
+ }
+.dropdown:hover{
+    background-color: yellow;
+}
+ .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    z-index: 1;
+    list-style: none;
+ }
+
+ .dropdown:hover .dropdown-content{
+    display: block;
+ }
+
+ .dropdown-content .dropdown-item img{
+     padding-right: 15px;
+ }
+
+ a.dropright ul{
+    top: 4px;
+    list-style: none;
+    position: absolute;
+    left: 234px;
+    /* border: 1px solid grey; */
+    padding: 0px;
+    background-color: #F8F9FA;
+    display: flex;
+    flex-flow: wrap;
+    width: 111%;
+    justify-content: space-evenly;
+ }
+ a.dropright ul li{
+     padding: 10px;
+ }
+ nav{
+     background-color: #51AA1B;
+ }
+
+  a.dropright ul li{
+    display: none;
+ }
+
+ a.dropright:hover ul li{
+     display: block;
+ }
+/* 
+ --------------hot product--------------- */
+
+ div.container.hot-products{
+     display: flex;
+     position: relative;
+     height: 353px;
+ }
+ /* div.hot-products>.one
+ {
+     position: absolute;
+     left: 274px;
+    top: 24px;
+ }
+ div.hot-products>.two
+ {
+     position: absolute;
+     left: 657px;
+    top: 24px;
+ }
+ div.hot-products>.three
+ {
+     position: absolute;
+     left: 657px;
+    top: 178px;
+ } */
+
+ .card.k{
+     border: 0px;
+ }
+
+ .card-title{
+    text-align: center;
+ }
+ section{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .col{
+     flex-grow: 0;
+ }
+
+ /* @media only screen and (max-width: 1201px) {
+    div.container.salf {
+     display: none;
+    }
+  } */
+
+  .card.k>img{
+    transition:  0.2s all;
+  }
+  .card.k>img:hover {
+    transform: rotate(10deg);
+    opacity: 0.5;
+    background-color: antiquewhite;
+  }
+
+  footer{
+      width: 100%;
+  }
+  div.headphone123,div.shop123{
+    display: flex;
+}
+  @media screen and (max-width: 900px){ 
+      div.col-sm-3.logo123{
+     display: none;
+      }
+      ul.list{
+        padding-left: none;
+      }
+ div.headphone123,div.shop123{
+    display: none;
+}
+}
+@media screen and (max-width: 790px){ 
+    .col-sm-5.search{
+      flex: none;
+      max-width: none;
+    }
+}
